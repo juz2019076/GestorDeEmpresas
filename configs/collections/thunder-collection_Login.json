@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Login",
+    "dateExported": "2024-03-04T04:27:37.174Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "31d19105-3e53-49ed-88d5-d89327bcd5b0",
+            "colId": "d86d9bde-df06-4e98-80fd-e2850904d1bc",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/businessmanagerApi/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T05:31:05.104Z",
+            "modified": "2024-03-03T05:44:50.806Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"amax@kinal.edu.gt\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

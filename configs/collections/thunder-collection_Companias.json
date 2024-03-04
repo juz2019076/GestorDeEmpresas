@@ -1,0 +1,143 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Companias",
+    "dateExported": "2024-03-04T04:27:42.464Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2cc622d9-1760-4ed5-ad33-6b439f151742",
+            "colId": "afa4b851-e01f-418f-b598-061d9603315c",
+            "containerId": "",
+            "name": "companiasPost",
+            "url": "http://localhost:3000/businessmanagerApi/v1/companies",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T07:40:56.149Z",
+            "modified": "2024-03-03T10:28:52.760Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MDQ0N2Q5MDRmYjFjNjgwYzU4OTEiLCJpYXQiOjE3MDk0NTI5MzYsImV4cCI6MTcxMjA0NDkzNn0.O5YRIkf-Bu2eDKHzmqOqPc3hJ8Kqzmxv_ScvRnaQXA8"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Celco 3\",\n  \"impactLevel\": \"Regular\",\n  \"yearsExperience\": \"20\",\n  \"companyCategory\": \"Productos\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ac0b0a2d-2728-4f59-80ea-c1e566304af7",
+            "colId": "afa4b851-e01f-418f-b598-061d9603315c",
+            "containerId": "",
+            "name": "companiasGetAño",
+            "url": "http://localhost:3000/businessmanagerApi/v1/companies?startYear=20",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-03T10:20:24.624Z",
+            "modified": "2024-03-03T10:53:10.563Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MDQ0N2Q5MDRmYjFjNjgwYzU4OTEiLCJpYXQiOjE3MDk0NTI5MzYsImV4cCI6MTcxMjA0NDkzNn0.O5YRIkf-Bu2eDKHzmqOqPc3hJ8Kqzmxv_ScvRnaQXA8"
+                }
+            ],
+            "params": [
+                {
+                    "name": "startYear",
+                    "value": "20",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "e32cd8bb-d343-4bbd-8585-c4e4e972c932",
+            "colId": "afa4b851-e01f-418f-b598-061d9603315c",
+            "containerId": "",
+            "name": "companiasGetA-Z",
+            "url": "http://localhost:3000/businessmanagerApi/v1/companies/companies-az",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-03T10:57:05.612Z",
+            "modified": "2024-03-03T10:58:27.701Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "78097e51-80cb-4d6c-bb75-ed78dcd03d90",
+            "colId": "afa4b851-e01f-418f-b598-061d9603315c",
+            "containerId": "",
+            "name": "companiasGetZ-A",
+            "url": "http://localhost:3000/businessmanagerApi/v1/companies/companies-za",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-03T11:00:49.032Z",
+            "modified": "2024-03-03T11:01:04.010Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "678d37d6-c771-4e10-a149-9eef4438b5f7",
+            "colId": "afa4b851-e01f-418f-b598-061d9603315c",
+            "containerId": "",
+            "name": "companiasGetCategoria",
+            "url": "http://localhost:3000/businessmanagerApi/v1/companies/category",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-03T11:21:19.784Z",
+            "modified": "2024-03-03T11:23:17.602Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"companyCategory\": \"Productos\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ddf56799-44da-4e56-8ecf-4d850c3884ea",
+            "colId": "afa4b851-e01f-418f-b598-061d9603315c",
+            "containerId": "",
+            "name": "companiasPut",
+            "url": "http://localhost:3000/businessmanagerApi/v1/companies/65e450e4603575c217f46857",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-03T11:51:36.671Z",
+            "modified": "2024-03-03T11:54:58.906Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU0MDQ0N2Q5MDRmYjFjNjgwYzU4OTEiLCJpYXQiOjE3MDk0NTI5MzYsImV4cCI6MTcxMjA0NDkzNn0.O5YRIkf-Bu2eDKHzmqOqPc3hJ8Kqzmxv_ScvRnaQXA8"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Coban\",\n  \"impactLevel\": \"Masivo\",\n  \"yearsExperience\": \"25\",\n  \"companyCategory\": \"Zapatos\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cc90e578-385b-4343-8ef9-f40222cae371",
+            "colId": "afa4b851-e01f-418f-b598-061d9603315c",
+            "containerId": "",
+            "name": "companiasExcel",
+            "url": "http://localhost:3000/businessmanagerApi/v1/companies/report",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-03T12:01:24.293Z",
+            "modified": "2024-03-04T04:25:49.410Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
